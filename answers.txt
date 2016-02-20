@@ -1,0 +1,147 @@
+11.what is the diferrence between inner and outer join?
+
+Ans:a join is used to compare and combine and return specific rows of data from two or more tables in a database.
+     
+       Inner join: inner join focuses on the commonality between two tables. When using an inner join, 
+                   there must be at least some matching data between two or more tables are being compared.*(learn syntax and byheart) 
+       Outer join:outer join returns a set of records (or rows) that include what an inner join would return but also 
+                     includes other rows for which no corresponding match is found in the other table.(learn syntax and byheart)
+               there are three types of outer joins 1.left 2. right 3.full outer joins. (explain a line each ,refer google)
+
+
+12.what is the difference between JOIN and UNION?
+
+Ans: joins : explain above answer anthakana akarledu.
+     
+      union:Unions combine data into new rows.  If two tables are unioned together, then the data from the first table is 
+             in one set of rows and the data from the second table in another set.  The rows are in the same result.
+       in union two table there are two types of requirements: 1.The number of columns must be the same for both select statements. 
+                                                               2. The columns, in order, must be of the same data type.
+                                         *(learn syntax and byheart)
+
+
+
+13.what is UNION ,MINUS,INTERSECT?
+
+Ans:UNION (as above answer)
+
+     Intersect:a query also combines result set of two or more SELECT quries but retuns only COMMON rows amoung result sets.
+      Each SELECT quries within the INTERSECt query must have the same number of columns in the result sets with similar data types.
+
+        ***** Syntax : SELECT col1,col2, .... FROM <tablenames> INTERSECT SELECT col1,col2, .... FROM <tablenames>;(col ante columns)(must learn)
+      
+      minus:MINUS returns all rows in the first query that are not returned by the second query.
+           Each SELECT quries within the MINUS query must have the same number of columns in the result sets with similar data types.
+
+         **** Syntax : SELECT col1,col2, .... FROM <tablenames> UNION SELECT col1,col2, .... FROM <tablenames>;
+
+ 
+
+14.How many types of SQL joins are there and what are they?
+Ans:explain first answer in brief with syntax and example.
+
+15. What is data structure?
+
+Ans:Data Structure is a systematic way to organize data in order to use it efficiently.it  is a collection of 
+    data items stored in memory, and a number of operations are provided by the software to manipulate that data structure.
+     The basic types of data structures are:
+           files
+            lists
+          arrays              } explain in each line. 
+            records        
+           trees
+           tables
+          this basic structures has many variations different operations to be performed on the data.
+           opertations telsu kada add,delete avi
+
+
+
+16.Differentiate file structure from storage structure.
+
+Ans: When allocating memory to a variable constant etc it is stored in the ram, which gets deleted as soon as the scope of that 
+function ends.This representation of allocating memory space in the ram is called storage structure.Whereas file structure
+when we write anything in a file and store that file in you hard disk or any other external device 
+which will be there until deleting it this representation of storing the file in secondary memory is called file structure
+
+
+17. When is a binary search best applied?
+
+Ans:binar search is best appied where to search a list when the elements are already in order or sorted.
+          The list is searched starting in the middle. If that middle value is not the correct one, 
+                    the lower or the upper half is searched in the same manner.
+
+
+18. What is a linked list?
+ 
+Ans:A linked list is a linear data structure where each element is a separate object.A linked list is a dynamic data structure. 
+The number of nodes in a list is not fixed and can grow and shrink on demand. Any application which has to deal with 
+an unknown number of objects will need to use a linked list.
+Types of Linked Lists
+
+1. singly linked list:  data and a reference to the next node
+
+2.doubly linked list : one to the next node and another to previous node. (example ivvu renditki)
+
+
+
+19. How do you reference all the elements in a one-dimension array?
+
+Ans:
+
+
+
+
+
+
+
+
+
+
+
+20. In what areas do data structures applied?
+
+Ans:Compiler Design, Operating System, Database Management System,Artificial intelligence.
+  in real time arraging books , railway tickets etc (if possible time permits write how.)
+
+
+21. What is LIFO?,,,,, 22. What is a queue?,,,23. What are binary trees?
+
+Ans: you can explain this three kada make it sharp and explain with example* .
+
+
+24. Which data structure is applied when dealing with a recursive function?
+
+Ans:  Stack. Because of its LIFO (Last In First Out) property it remembers its caller function so it knows whom to return when the 
+           function has to return. Recursion makes use of stack for storing the return addresses of the function calls.
+         (e explanation chalu akku kavali ante eloborate it.)
+
+
+
+
+
+                  ***** Note : syntax and examples are must and should task u have to do wherever required compulsary.
+                                stars petta chudu avi compulsary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
